@@ -1,0 +1,28 @@
+/* SortItems.css */
+
+.sorted-items-table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Merge table borders */
+    margin-top: 10px; /* Space above the table */
+  }
+  
+  .sorted-items-table th,
+  .sorted-items-table td {
+    border: 1px solid #ccc; /* Light border for table cells */
+    padding: 8px; /* Padding inside table cells */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .sorted-items-table th {
+    background-color: #007bff; /* Header background color */
+    color: white; /* Header text color */
+  }
+  
+  .sorted-items-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row color */
+  }
+  
+  .sorted-items-table tr:hover {
+    background-color: #e9ecef; /* Row hover effect */
+  }
+  

@@ -1,0 +1,22 @@
+.item-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .item-table th, .item-table td {
+    border: 1px solid #ddd;
+    padding: 12px; /* More padding for better spacing */
+    text-align: left;
+  }
+  
+  .item-table th {
+    background-color: #007bff; /* Header color matching the buttons */
+    color: white;
+    font-weight: bold;
+  }
+  
+  .item-table tr:nth-child(even) {
+    background-color: #e9ecef; /* Light gray for even rows */
+  }
+  
